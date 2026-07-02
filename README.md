@@ -16,6 +16,8 @@ Main flow:
 
 If a stage fails for a specific branch, the error is logged, and in watch mode the app continues monitoring next branches. Stop the app with Ctrl+C.
 
+In case of errors persist in flow, recommended usge extended logging for better understanding situation (parameter `"log_mode": "extended"` in `config.json`)
+
 ## What The Product Does
 
 - Unified CLI interface for `gitea`, `github`, `gitlab`.
