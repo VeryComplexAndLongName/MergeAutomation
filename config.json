@@ -1,0 +1,17 @@
+{
+  "provider": "gitea",
+  "base_url": "http://hppiigit:3000",
+  "repo_path": "C:/Prog/hyper",
+  "remote": "origin",
+  "main_branch": "main",
+  "poll_interval": 10,
+  "branch_scan_interval": 5,
+  "timeout_seconds": 1800,
+  "merge_style": "merge",
+  "pr_title_prefix": "Auto merge",
+  "log_mode": "basic",
+  "dry_run": false,
+  "watch_branches": true,
+  "show_check_details": true,
+  "strict_status": false
+}
